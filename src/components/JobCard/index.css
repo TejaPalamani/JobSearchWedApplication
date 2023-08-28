@@ -1,0 +1,79 @@
+li {
+  list-style-type: none;
+}
+.company_logo {
+  width: 55px;
+  margin-right: 10px;
+  margin-top: 23px;
+}
+.job_card {
+  width: 90%;
+  min-height: 320px;
+  background-color: rgb(15, 17, 17);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 18px;
+  flex-wrap: wrap;
+}
+.logo_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.rating_job_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+
+  margin-top: 0px;
+}
+.check {
+  height: 40px;
+}
+
+.h {
+  max-height: 25px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.f {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  max-width: 40%;
+}
+.job_card_location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.special {
+  text-decoration: none;
+  color: aliceblue;
+}
+.gg {
+  max-width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .f {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+  }
+
+  .h {
+    max-height: 25px;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+}

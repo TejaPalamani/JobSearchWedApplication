@@ -1,0 +1,9 @@
+.bg {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+  padding: 22px;
+}

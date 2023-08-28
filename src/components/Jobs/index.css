@@ -1,0 +1,64 @@
+.left_card {
+  width: 30%;
+  background-color: black;
+  min-height: 700px;
+  max-height: 100%;
+  flex-shrink: 0;
+  padding: 15px;
+  color: aliceblue;
+}
+.mainContainer {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.right_side {
+  width: 70%;
+  background-color: black;
+  min-height: 100vh;
+  max-height: 100%;
+  color: aliceblue;
+  padding: 15px;
+  flex-grow: 3;
+  overflow: auto;
+}
+.j {
+  width: 50%;
+  height: 38px;
+  border-radius: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: none;
+  padding-left: 10px;
+  margin-left: 10%;
+}
+.p {
+  background-color: rgb(129, 127, 124);
+  height: 40px;
+  width: 38px;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left_card {
+    width: 100%;
+  }
+  .right_side {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    overflow: auto;
+  }
+}
+.jobs_nojobs_view {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
